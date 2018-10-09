@@ -12,7 +12,6 @@ public class ChessPiece implements Serializable {
     private ChessPiece right;
     private ChessPiece bottom;
 
-
     public int getChessNo() {
         return chessNo;
     }

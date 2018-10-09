@@ -9,6 +9,7 @@ public class Main {
     static int[] markIndex = {16,18,19};   //哪些棋子不能走
     static int startIndex = 1;    //开始位置
 
+
     public static void main(String[] args) {
         //设置起始位置，查找路径
         PathFinder.findPath(startIndex, PathFinder.getChessBoard(PathFinder.getChesses(columns, rows, markIndex), columns, rows));
