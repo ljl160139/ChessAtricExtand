@@ -86,15 +86,6 @@ public class PathFinder {
         });
 
 
-        /*for(int i=0;i<200;i++){
-            String path = "";
-            List<ChessPiece> list=pathList.get(i);
-            for (int j = 0; j < list.size(); j++) {
-                path += list.get(j).getChessNo() + "  ";
-            }
-            System.out.println(path);
-        }
-        System.out.println("pathList size---" + pathList.size());*/
         int successPathLength = 0;
         for (int i = 0; i < data.size(); i++) {
             if (!data.get(i).isMarked()) {
@@ -132,17 +123,6 @@ public class PathFinder {
             }
         });
 
-
-        /*for(int i=0;i<200;i++){
-            String path = "";
-
-            List<ChessPiece> list=pathList.get(i);
-            for (int j = 0; j < list.size(); j++) {
-                path += list.get(j).getChessNo() + "  ";
-            }
-            System.out.println(path);
-        }
-        System.out.println("pathList size---" + pathList.size());*/
 
         int successPathLength = 0;
         for (int i = 0; i < data.size(); i++) {
